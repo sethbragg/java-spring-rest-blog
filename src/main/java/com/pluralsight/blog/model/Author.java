@@ -27,11 +27,11 @@ public class Author {
 
     public Author() {
         super();
+        posts = new ArrayList<>();
     }
 
     public Author(String username, String firstname, String lastname, String password) {
         this();
-        posts = new ArrayList<>();
         this.firstname = firstname;
         this.lastname = lastname;
         this.username = username;
